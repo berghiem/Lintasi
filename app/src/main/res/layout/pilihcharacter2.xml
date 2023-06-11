@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/karakter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@color/bghomescreen" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="132dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fluid2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingLeft="50dp"
+                android:text="Pilih karakter"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+        </FrameLayout>
+
+        <include
+            layout="@layout/list_character"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"  />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/lanjut"
+        android:layout_width="match_parent"
+         android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_100sdp"
+        android:background="@drawable/rounded_gold_solid2"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        android:paddingVertical="@dimen/_1sdp"
+        android:text="OKE"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>

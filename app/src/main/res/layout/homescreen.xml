@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_52sdp"
+            android:orientation="horizontal"
+            android:background="@android:color/holo_red_light"
+            android:id="@+id/userLayout"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/a_c_bulan"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/circleyellow"
+                android:id="@+id/profpic"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/levelLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Anak Sehat"
+                    android:fontFamily="@font/fredoka_one"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:id="@+id/levelName"
+                    />
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/i_badge_star"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/reward"
+                    />
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="0"
+                    android:fontFamily="@font/fredoka_one"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/countBadge"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hs_1_h"
+                android:scaleType="centerCrop"
+                android:id="@+id/homescreenImage"
+                android:visibility="visible" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/flyAnim"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hs_1_h"
+                android:visibility="visible"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="birds.json"
+                app:lottie_imageAssetsFolder="images"
+                app:lottie_loop="true"
+                android:layout_gravity="right|bottom"
+                />
+
+        </FrameLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_34sdp"
+                android:background="@drawable/roundedred"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_30sdp"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:layout_marginRight="@dimen/_73sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:fontFamily="@font/quicksand"
+                            android:text="@string/map"
+                            android:textColor="@android:color/white"
+
+                            tools:layout_editor_absoluteX="27dp"
+                            tools:layout_editor_absoluteY="27dp" />
+
+                        <TextView
+                            android:id="@+id/start"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="@dimen/_30sdp"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:layout_marginBottom="@dimen/_30sdp"
+                            android:background="@drawable/rounded_gold_solid"
+                            android:fontFamily="@font/fredoka_one"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/_40sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingRight="@dimen/_40sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:text="Lanjut"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_15sdp"
+
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_120sdp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_25sdp"
+                        android:layout_gravity="right"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/slicemap" />
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="g_atas_w">400dp</dimen>
+    <dimen name="g_atas_h">650px</dimen>
+    <dimen name="gk_atas_w">30dp</dimen>
+    <dimen name="gk_atas_h">250px</dimen>
+    <dimen name="c_atas_w">180dp</dimen>
+    <dimen name="c_atas_h">180px</dimen>
+    <dimen name="g_bawah1_w">170dp</dimen>
+    <dimen name="g_bawah1_h">350dp</dimen>
+    <dimen name="g_bawah2_w">206dp</dimen>
+    <dimen name="g_bawah2_h">207dp</dimen>
+    <dimen name="angka_text_margin_b">2dp</dimen>
+    <dimen name="angka_textsize">56dp</dimen>
+    <dimen name="dl_atas_w">500dp</dimen>
+    <dimen name="dl_atas_h">1300px</dimen>
+    <dimen name="ld_atas_w">500dp</dimen>
+    <dimen name="ld_atas_h">500px</dimen>
+
+    <dimen name="tr_atas_w">450dp</dimen>
+    <dimen name="tr_atas_h">950px</dimen>
+    <dimen name="a_atas_w">270dp</dimen>
+    <dimen name="a_atas_h">270px</dimen>
+    <dimen name="b_atas_w">600dp</dimen>
+    <dimen name="b_atas_h">600px</dimen>
+    <dimen name="la_atas_w">600dp</dimen>
+    <dimen name="la_atas_h">600px</dimen>
+    <dimen name="ls_atas_w">700dp</dimen>
+    <dimen name="ls_atas_h">700px</dimen>
+    <dimen name="h_atas_h">490px</dimen>
+    <dimen name="h_atas_w">490px</dimen>
+
+    <dimen name="buku_w">300dp</dimen>
+    <dimen name="buku_h">100dp</dimen>
+
+    <dimen name="awan_h">360dp</dimen>
+    <dimen name="hs_1_h">300dp</dimen>
+    <dimen name="hewan_icon">148px</dimen>
+    <dimen name="text_anim">50sp</dimen>
+    <dimen name="text_fruit">45sp</dimen>
+    <dimen name="fruit_space">165dp</dimen>
+    <dimen name="fruit_size">165dp</dimen>
+
+    <dimen name="text_alphabet">100sp</dimen>
+    <dimen name="alphabet_size">65dp</dimen>
+    <dimen name="spacebuku">52dp</dimen>
+
+    <dimen name="spaceimageAlp">190dp</dimen>
+    <dimen name="awanspace">20dp</dimen>
+
+    <dimen name="control">45dp</dimen>
+    <dimen name="huruf_textsize">40sp</dimen>
+
+    <!--  MAP -->
+    <dimen name="islanmarginBottom">260dp</dimen>
+
+    <dimen name="bonbinPinsize">35dp</dimen>
+    <dimen name="bonbinPinmarginLeft">130dp</dimen>
+    <dimen name="bonbinPinmarginTop">30dp</dimen>
+    <dimen name="bonbinsize">95dp</dimen>
+    <dimen name="bonbinmarginLeft">70dp</dimen>
+    <dimen name="bonbinmarginTop">30dp</dimen>
+
+    <dimen name="tamanPinSize">35dp</dimen>
+    <dimen name="tamanPinmarginLeft">210dp</dimen>
+    <dimen name="tamanPinmarginTop">22dp</dimen>
+    <dimen name="tamanSize">75dp</dimen>
+    <dimen name="tamanmarginLeft">185dp</dimen>
+    <dimen name="tamanmarginTop">30dp</dimen>
+
+    <dimen name="quizPinSize">35dp</dimen>
+    <dimen name="quizPinmarginLeft">185dp</dimen>
+    <dimen name="quizPinmarginTop">100dp</dimen>
+    <dimen name="quizSize">60dp</dimen>
+    <dimen name="quizmarginLeft">165dp</dimen>
+    <dimen name="quizmarginTop">120dp</dimen>
+
+    <dimen name="perpusPinSize">35dp</dimen>
+    <dimen name="perpusPinmarginLeft">165dp</dimen>
+    <dimen name="perpusPinmarginTop">188dp</dimen>
+    <dimen name="perpusSize">95dp</dimen>
+    <dimen name="perpusmarginLeft">135dp</dimen>
+    <dimen name="perpusmarginTop">205dp</dimen>
+
+    <dimen name="kebunPinSize">35dp</dimen>
+    <dimen name="kebunPinmarginLeft">245dp</dimen>
+    <dimen name="kebunPinmarginTop">250dp</dimen>
+    <dimen name="kebunSize">75dp</dimen>
+    <dimen name="kebunmarginLeft">200dp</dimen>
+    <dimen name="kebunmarginTop">280dp</dimen>
+
+    <dimen name="textFrameMarginLeft">0dp</dimen>
+
+    <dimen name="characterSizeWidth">80dp</dimen>
+    <dimen name="stujuPaddingVertical">1dp</dimen>
+
+
+
+    <!-- ANGKA  -->
+    <dimen name="numberImageSize">250dp</dimen>
+    <dimen name="objectSize1">70dp</dimen>
+    <dimen name="objectSize2">42dp</dimen>
+
+    <dimen name="objectParentSize6">126dp</dimen>
+    <dimen name="objectParentSize8">168dp</dimen>
+    <dimen name="objectParentSize10">210dp</dimen>
+
+
+    <!-- HOME Screen-->
+    <dimen name="homeTextSize">13dp</dimen>
+    <dimen name="islandHomeScreensize">90dp</dimen>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136035653495",
+    "firebase_url": "https://aruna-abc.firebaseio.com",
+    "project_id": "aruna-abc",
+    "storage_bucket": "aruna-abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136035653495:android:c2fc4dc77f45fbe4",
+        "android_client_info": {
+          "package_name": "com.catostudioaruna.alphabet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136035653495-osb1g7n2s4bbui20fursps3csbpc3tpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwHKTITDmggDQKw5m8jAUVVEf-9riZYMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136035653495-osb1g7n2s4bbui20fursps3csbpc3tpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

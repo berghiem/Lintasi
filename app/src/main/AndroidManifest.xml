@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.catostudioaruna.alphabet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logolintasibaru"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".AlphabetAppUtil">
+
+        <activity android:name="com.catostudioaruna.alphabet.view.MainActivity">
+
+        </activity>
+
+        <activity android:name="com.catostudioaruna.alphabet.view.HomeScreenActivity">
+
+        </activity>
+        <activity android:name="com.catostudioaruna.alphabet.view.CariHurufActivity" />
+        <activity android:name="com.catostudioaruna.alphabet.view.TebakHurufActivity" />
+        <activity android:name="com.catostudioaruna.alphabet.view.MyAlbumStickerActivity" />
+        <activity
+            android:name="com.catostudioaruna.alphabet.view.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:name=".NotifyService"/>
+        <receiver android:name=".AlertReceiver"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/YOUR_ADMOB_APP_ID"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+
+    </application>
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

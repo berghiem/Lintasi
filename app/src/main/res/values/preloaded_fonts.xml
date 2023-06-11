@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/coustard</item>
+        <item>@font/coustard_black</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/fresca</item>
+        <item>@font/gabriela</item>
+        <item>@font/lilita_one</item>
+        <item>@font/quicksand</item>
+        <item>@font/quicksand_bold</item>
+        <item>@font/source_sans_pro</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">136035653495-osb1g7n2s4bbui20fursps3csbpc3tpv.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aruna-abc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">136035653495</string>
+    <string name="google_api_key" translatable="false">AIzaSyBwHKTITDmggDQKw5m8jAUVVEf-9riZYMc</string>
+    <string name="google_app_id" translatable="false">1:136035653495:android:c2fc4dc77f45fbe4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwHKTITDmggDQKw5m8jAUVVEf-9riZYMc</string>
+    <string name="google_storage_bucket" translatable="false">aruna-abc.appspot.com</string>
+    <string name="project_id" translatable="false">aruna-abc</string>
+
+</resources>

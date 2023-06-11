@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="g_atas_w">400dp</dimen>
+	<dimen name="g_atas_h">650px</dimen>
+	<dimen name="gk_atas_w">30dp</dimen>
+	<dimen name="gk_atas_h">250px</dimen>
+	<dimen name="c_atas_w">180dp</dimen>
+	<dimen name="c_atas_h">180px</dimen>
+	<dimen name="g_bawah1_w">170dp</dimen>
+	<dimen name="g_bawah1_h">350dp</dimen>
+	<dimen name="g_bawah2_w">206dp</dimen>
+	<dimen name="g_bawah2_h">207dp</dimen>
+	<dimen name="angka_text_margin_b">2dp</dimen>
+	<dimen name="angka_textsize">56dp</dimen>
+	<dimen name="dl_atas_w">500dp</dimen>
+	<dimen name="dl_atas_h">1300px</dimen>
+	<dimen name="ld_atas_w">500dp</dimen>
+	<dimen name="ld_atas_h">500px</dimen>
+
+	<dimen name="tr_atas_w">450dp</dimen>
+	<dimen name="tr_atas_h">950px</dimen>
+	<dimen name="a_atas_w">270dp</dimen>
+	<dimen name="a_atas_h">270px</dimen>
+	<dimen name="b_atas_w">600dp</dimen>
+	<dimen name="b_atas_h">600px</dimen>
+	<dimen name="la_atas_w">600dp</dimen>
+	<dimen name="la_atas_h">600px</dimen>
+	<dimen name="ls_atas_w">700dp</dimen>
+	<dimen name="ls_atas_h">700px</dimen>
+	<dimen name="h_atas_h">490px</dimen>
+	<dimen name="h_atas_w">490px</dimen>
+
+	<dimen name="buku_w">400dp</dimen>
+	<dimen name="buku_h">150dp</dimen>
+
+	<dimen name="awan_h">400dp</dimen>
+	<dimen name="hs_1_h">300dp</dimen>
+	<dimen name="hewan_icon">228px</dimen>
+
+
+	<dimen name="text_anim">75sp</dimen>
+
+	<dimen name="text_fruit">65sp</dimen>
+	<dimen name="text_alphabet">155sp</dimen>
+
+	<dimen name="alphabet_size">110dp</dimen>
+	<dimen name="fruit_space">200dp</dimen>
+	<dimen name="fruit_size">200dp</dimen>
+
+	<dimen name="spaceimageAlp">300dp</dimen>
+	<dimen name="awanspace">0dp</dimen>
+
+    <dimen name="control">60dp</dimen>
+</resources>

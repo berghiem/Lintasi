@@ -1,0 +1,9 @@
+<resources>
+	<dimen name="awan_h">180dp</dimen>
+    <dimen name="huruf_textsize">35sp</dimen>
+
+
+    <!--  MAP -->
+    <dimen name="bonbinsize">105dp</dimen>
+
+</resources>

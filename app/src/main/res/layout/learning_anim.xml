@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/back"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/zooBg"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            android:background="@drawable/zoo_bg">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="0dp"
+                    android:scaleType="fitXY"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.417"
+                    app:layout_constraintRight_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/animation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:scaleType="fitCenter"
+                        android:visibility="visible">
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/prev"
+                            android:layout_weight="1" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/next"
+                            android:background="@color/shadow" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitEnd"
+                        android:src="@drawable/z_ayam"
+                        android:id="@+id/mediumAnimal"
+                        android:visibility="visible"
+                        android:layout_marginBottom="100dp"
+                        android:layout_gravity="center_horizontal|bottom"
+
+                        />
+
+
+                    <ImageView
+                        android:layout_width="290dp"
+                        android:layout_height="180dp"
+                        android:scaleType="fitEnd"
+                        android:src="@drawable/zoobush"
+                        android:visibility="visible"
+                        android:layout_gravity="left|bottom"
+                        />
+
+
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adZoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_kebun_binatang" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="55dp"
+                android:layout_marginRight="20dp"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_48sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/i_home"
+                    android:text="mode"
+                    android:tooltipText="mode"
+                    android:visibility="visible"
+                    android:layout_marginLeft="10dp"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/i_pinmap"
+                    android:text="mode"
+                    android:tooltipText="mode"
+                    android:visibility="visible" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:id="@+id/autoplay"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:src="@drawable/autoplayoff"
+                    android:tooltipText="autoplay" />
+
+                <ImageView
+                    android:id="@+id/sound"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/audio"
+                    android:text="mode"
+                    android:tooltipText="mode"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_88sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top|center_horizontal"
+                    android:gravity="top|center_horizontal"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:fontFamily="@font/fredoka_one"
+                    android:lineSpacingExtra="0dp"
+                    android:lineSpacingMultiplier="0.9"
+                    android:text="ayam"
+                    android:id="@+id/name"
+                    android:visibility="visible"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_51sdp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:id="@+id/bottom_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_65sdp"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom|center_horizontal"
+                android:padding="0dp">
+
+                <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/tracklist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:padding="0dp"/>
+
+            </LinearLayout>
+
+
+            <!--ImageView
+                android:layout_width="1000px"
+                android:layout_height="800px"
+                android:src="@drawable/apples"
+                android:scaleType="fitCenter"/-->
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

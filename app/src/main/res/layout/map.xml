@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameBg"
+        android:background="@color/sea">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_160sdp"
+            android:scaleType="centerCrop"
+            android:id="@+id/theisland"
+            android:src="@drawable/island" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/i_home"
+                android:text="mode"
+                android:tooltipText="mode"
+                android:visibility="visible"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bonbinAnim"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/bonbinPinmarginLeft"
+            android:layout_marginTop="@dimen/bonbinPinmarginTop"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+
+        <ImageView
+            android:id="@+id/bonbin"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_marginLeft="@dimen/bonbinmarginLeft"
+            android:layout_marginTop="@dimen/bonbinmarginTop"
+            android:src="@drawable/a_m_zoo" />
+
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/seasonalAnim"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_120sdp"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+
+        <ImageView
+            android:id="@+id/seasonal"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_marginLeft="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_120sdp"
+            android:src="@drawable/indonesia" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/tamanAnim"
+            android:layout_marginLeft="@dimen/_225sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+        <ImageView
+            android:id="@+id/taman"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:src="@drawable/a_m_taman" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/quizAnim"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_marginLeft="@dimen/quizmarginLeft"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:src="@drawable/a_m_quiz"
+            android:textColor="@color/gold" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/perpusAnim"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_160sdp"
+            android:layout_marginTop="@dimen/_215sdp"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+
+        <ImageView
+            android:id="@+id/perpus"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginLeft="@dimen/_125sdp"
+            android:layout_marginTop="@dimen/_225sdp"
+            android:src="@drawable/a_m_perpus" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/kebunAnim"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_245sdp"
+            android:layout_marginTop="@dimen/_270sdp"
+            android:visibility="visible"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="pin.json"
+            app:lottie_imageAssetsFolder="images" />
+
+        <ImageView
+            android:id="@+id/perkebunan"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_marginLeft="@dimen/_210sdp"
+            android:layout_marginTop="@dimen/_300sdp"
+            android:src="@drawable/a_m_kebun" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/flyAnim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="fly.json"
+            app:lottie_imageAssetsFolder="images"
+            app:lottie_loop="true"
+            app:lottie_speed="0.5"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/characterLayout"
+                >
+
+                <ImageView
+                    android:id="@+id/character"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_120sdp"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="@dimen/_110sdp"
+                    android:layout_marginLeft="@dimen/textFrameMarginLeft"
+                    android:id="@+id/choiceParent"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+
+                    android:background="@drawable/rounded_red_stroke">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/landmarkicon"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/animalicon"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/choice2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_14sdp"
+                            android:fontFamily="@font/quicksand"
+                            android:gravity="center_horizontal"
+                            android:textSize="@dimen/_13sdp"
+                            android:text="Pilihlah tempat yang ingin kamu kunjungi bersama " />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/setuju"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@drawable/roundedred"
+                        android:fontFamily="@font/fredoka_one"
+                        android:gravity="center"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="lanjut"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center">
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_map">
+                </com.google.android.gms.ads.AdView>
+
+                <LinearLayout
+                    android:id="@+id/banner_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sea">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/island" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="@dimen/control"
+                android:layout_height="@dimen/control"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/i_home"
+                android:text="mode"
+                android:tooltipText="mode"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:visibility="visible"
+
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/bonbin"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/a_m_zoo" />
+
+            <ImageView
+                android:id="@+id/taman"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:src="@drawable/a_m_taman" />
+            <Space
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/quiz"
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:src="@drawable/a_m_quiz"
+                android:textColor="@color/gold" />
+            <ImageView
+                android:id="@+id/perpus"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:src="@drawable/a_m_perpus"
+                android:layout_marginLeft="@dimen/_40sdp"/>
+            <ImageView
+                android:id="@+id/perkebunan"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:src="@drawable/a_m_kebun" />
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/bonbinp"
+            android:layout_width="@dimen/bonbinPinsize"
+            android:layout_height="@dimen/bonbinPinsize"
+            android:layout_marginLeft="@dimen/bonbinPinmarginLeft"
+            android:layout_marginTop="@dimen/bonbinPinmarginTop"
+            android:src="@drawable/map_placeholder" />
+
+
+        <ImageView
+            android:id="@+id/tamanp"
+            android:layout_width="@dimen/tamanPinSize"
+            android:layout_height="@dimen/tamanPinSize"
+            android:layout_marginLeft="@dimen/tamanPinmarginLeft"
+            android:layout_marginTop="@dimen/tamanPinmarginTop"
+            android:src="@drawable/map_placeholder" />
+
+        <ImageView
+            android:id="@+id/quizp"
+            android:layout_width="@dimen/quizPinSize"
+            android:layout_height="@dimen/quizPinSize"
+            android:layout_marginLeft="@dimen/quizPinmarginLeft"
+            android:layout_marginTop="@dimen/quizPinmarginTop"
+            android:src="@drawable/map_placeholder" />
+
+
+
+        <ImageView
+            android:id="@+id/perpusp"
+            android:layout_width="@dimen/perpusPinSize"
+            android:layout_height="@dimen/perpusPinSize"
+            android:layout_marginLeft="@dimen/perpusPinmarginLeft"
+            android:layout_marginTop="@dimen/perpusPinmarginTop"
+            android:src="@drawable/map_placeholder" />
+
+
+
+        <ImageView
+            android:id="@+id/kebunp"
+            android:layout_width="@dimen/kebunPinSize"
+            android:layout_height="@dimen/kebunPinSize"
+            android:layout_marginLeft="@dimen/kebunPinmarginLeft"
+            android:layout_marginTop="@dimen/kebunPinmarginTop"
+            android:src="@drawable/map_placeholder" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/characterLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/character"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="120dp" />
+
+                <LinearLayout
+                    android:id="@+id/choiceParent"
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="@dimen/textFrameMarginLeft"
+                    android:background="@drawable/rounded_green_stroke"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/landmarkicon"
+                            android:layout_width="45dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/animalicon"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/choice2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="14dp"
+                            android:fontFamily="@font/quicksand"
+                            android:gravity="center_horizontal"
+                            android:text="Pilihlah tempat yang ingin kamu kunjungi bersama "
+                            android:textSize="@dimen/homeTextSize" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/setuju"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@drawable/rounded_gold_solid"
+                        android:fontFamily="@font/fredoka_one"
+                        android:gravity="center"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="lanjut"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_map"></com.google.android.gms.ads.AdView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

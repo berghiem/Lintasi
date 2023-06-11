@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/bg1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hai"
+            android:scaleType="fitCenter"
+            android:paddingLeft="18dp"
+            android:paddingTop="17dp"
+            android:paddingBottom="60dp"
+            android:paddingRight="30dp"
+            android:layout_weight="1"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:paddingRight="25dp"
+            android:scaleType="fitEnd"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/bg2"
+        android:id="@+id/belajarhuruf">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/tebakhuruf"
+        android:background="@color/bg3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/carihuruf"
+        android:background="@color/bg4">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cari2"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/aa"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:text="Belajar angka"
+        android:textSize="31dp"
+        android:fontFamily="@font/fredoka_one"
+        android:id="@+id/angka" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/hh"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:text="My album sticker"
+        android:textSize="31dp"
+        android:fontFamily="@font/fredoka_one"
+        android:id="@+id/myalbum" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:paddingVertical="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit"
+            android:textColor="@android:color/white"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/credit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textColor="@android:color/white"
+            android:id="@+id/contact" />
+
+    </LinearLayout>
+
+</LinearLayout>

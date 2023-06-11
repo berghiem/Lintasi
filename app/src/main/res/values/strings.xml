@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lintasi Game Belajar</string>
+    <string name="belajarhurufketerangan">Mengenalkan anak pada huruf disertai
+ilustrasi binatang, buah, benda
+dan juga pengucapan</string>
+
+    <!--string name="add_unit_in_belajar">ca-app-pub-9039136848887601/5203133444</string>
+    <string name="test_add_unit_id_inerstitial">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="add_unit_in_tebak">ca-app-pub-9039136848887601/8627281247</string>
+
+    <string name="add_unit_in_cari">ca-app-pub-9039136848887601/8661627183</string-->
+    <string name="facebook_app_id">962562290871926</string>
+    <string name="test_add_unit_id_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_taman">ca-app-pub-9039136848887601/4367158955</string>
+    <string name="banner_kebun">ca-app-pub-9039136848887601/8024108601</string>
+    <string name="banner_kebun_binatang">ca-app-pub-9039136848887601/3209989953</string>
+    <string name="banner_perpustakaan">ca-app-pub-9039136848887601/6543505970</string>
+    <string name="banner_quiz">ca-app-pub-9039136848887601/5788498942</string>
+    <string name="banner_map">ca-app-pub-9039136848887601/7832536910</string>
+    <string name="banner_brief_info">ca-app-pub-9039136848887601/5981884681</string>
+
+
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-9039136848887601~6115802002</string>
+    <string name="bonbin">Kebun binatang (sering disingkat bonbin, dari kebon binatang) atau taman margasatwa adalah tempat hewan dipelihara dalam lingkungan buatan, dan dipertunjukkan kepada publik. Selain sebagai tempat rekreasi, kebun binatang berfungsi sebagai tempat pendidikan, riset, dan tempat konservasi untuk satwa terancam punah. Binatang yang dipelihara di kebun binatang sebagian besar adalah hewan yang hidup di darat, sedangkan satwa air dipelihara di akuarium.</string>
+    <string name="map">Ayo kita belajar bermacam-macam hal dengan melintasi tempat-tempat menarik bersama Bulan dan Bayu. </string>
+</resources>

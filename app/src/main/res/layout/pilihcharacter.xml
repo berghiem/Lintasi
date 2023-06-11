@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/karakter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@color/bghomescreen" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="132dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fluid2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingLeft="50dp"
+                android:text="Pilih karakter"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+        </FrameLayout>
+
+        <include
+            layout="@layout/list_character"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vehiclelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Pilih kendaraan"
+            android:textColor="@color/bghomescreen"
+            android:textSize="40dp" />
+
+        <include
+            layout="@layout/list_vehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280px"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/pickKarakter">
+
+                <include
+                    layout="@layout/notactive"
+                    android:layout_width="210px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/u1"
+                    android:layout_width="210px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="@font/quicksand"
+                    android:gravity="center"
+                    android:text="karakter"
+                    android:textColor="@color/bghomescreen"
+                    android:textSize="10dp"
+                    android:visibility="visible"
+                    android:layout_marginTop="10dp"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="8dp"
+
+                android:background="@color/abu" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pickVehicle"
+                android:orientation="vertical">
+
+                <FrameLayout android:layout_width="210px"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/linear"
+                    android:paddingTop="2dp"
+                    android:layout_marginHorizontal="0dp"
+                    android:background="@android:color/transparent">
+
+                    <ImageView
+                        android:layout_width="210px"
+                        android:layout_height="210px"
+                        android:scaleType="fitXY"
+                        android:id="@+id/frame2"
+                        android:src="@drawable/inactive"/>
+
+
+                    <ImageView
+                        android:layout_width="150px"
+                        android:layout_height="150px"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone"
+                        android:id="@+id/object2"
+                        android:src="@drawable/girlr" />
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/u2"
+                    android:layout_width="210px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/quicksand"
+                    android:text="kendaraan"
+                    android:textColor="@color/abu"
+                    android:textSize="10dp"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/h_next_g" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+
+    </LinearLayout>
+
+</LinearLayout>

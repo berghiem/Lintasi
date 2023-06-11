@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#68BBB8</color>
+    <color name="yellow">#fdf505</color>
+    <color name="yellow2">#ffde17</color>
+    <color name="soft">#aca7ef</color>
+    <color name="green">#3ECF64</color>
+    <color name="green3">#40b361</color>
+    <color name="orange">#f99d07</color>
+    <color name="other_orange">#F5855B</color>
+
+    <color name="purple">#701F96</color>
+
+    <color name="brokenblack">#535251</color>
+    <color name="brown1">#8A6643</color>
+    <color name="brown">#ff0202</color>
+    <color name="greenlight">#ffee00</color>
+    <color name="aa">#F98F8F</color>
+    <color name="bb">#F7F789</color>
+    <color name="cc">#E0F99B</color>
+    <color name="dd">#F9BBD3</color>
+    <color name="ee">#FCE277</color>
+    <color name="gold">#F7CC2F</color>
+    <color name="ff">#D2FCFF</color>
+    <color name="gg">#90D3C7</color>
+    <color name="hh">#36BAEC</color>
+    <color name="ii">#E0F99B</color>
+    <color name="jj">#E0F99B</color>
+    <color name="kk">#E0F99B</color>
+    <color name="ll">#E5F5F9</color>
+    <color name="mm">#58B5DD</color>
+    <color name="nn">#FFF27E</color>
+    <color name="oo">#E0F99B</color>
+    <color name="pp">#36E8D1</color>
+    <color name="qq">#FFFFFF</color>
+    <color name="rr">#7FEAE2</color>
+    <color name="ss">#C4E8FA</color>
+    <color name="tt">#E0F99B</color>
+    <color name="uu">#FFF27E</color>
+    <color name="endgame">#FFEBCE</color>
+    <color name="bgsnumber">#00d688</color>
+    <color name="green2">#c0ca33</color>
+    <color name="green4">#B5AA1C</color>
+    <color name="vv">#CEF2CE</color>
+    <color name="ww">#FFFFFF</color>
+    <color name="xx">#F7CD9C</color>
+    <color name="yy">#9AE8F8</color>
+    <color name="zz">#F4DFBB</color>
+<color name="bg1">#85CCCC</color>
+    <color name="textbg">#FFD7D7</color>
+    <color name="bg2">#00BFCF</color>
+    <color name="blue_lib">#00acc2</color>
+    <color name="blueag">#298BED</color>
+    <color name="bg3">#EF4136</color>
+    <color name="bg4">#248E26</color>
+    <color name="bghomescreen">#443d6c</color>
+    <color name="bgmaphs">#00acc1</color>
+    <color name="ungu">#510394</color>
+    Use the below code for black:
+
+    <color name="black">#000000</color>
+    Now if I want to use opacity then you can use the below code:
+
+    <color name="bluetrans">#99318796</color>
+    <color name="shadow">#10000000</color>
+    <color name="abu">#efeaea</color>
+    <color name="sea">#00acc1</color>
+    <color name="bgblue">#2FDDF3</color>
+
+    <color name="coklatmeja">#d49955</color>
+    <color name="coklattua">#8B6837</color>
+    <color name="unguHuruf">#E8528F</color>
+    <color name="unguMuda">#F8C1E4</color>
+    <color name="hijau_zoo">#80A700</color>
+    <color name="goldtrans">#99F7CC2F</color>
+
+    <color name="hijau_farm"> #aad663</color>
+    <color name="blue_frame">#1479CC</color>
+    <color name="ungu_bedtime">#7d1960</color>
+    <color name="in_bg_bawahs">#F4BF7A</color>
+    <color name="dark_green">#686302</color>
+    <color name="anothergreen">#F2EE75</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emptysticker"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sadkitty"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="0"
+            android:layout_marginHorizontal="10dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gabriela"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+
+            android:text="Sayang sekali, saat ini kamu belum mempunyai sticker." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginHorizontal="15dp"
+            android:fontFamily="@font/gabriela"
+            android:text="Ayo mainkan 'Tebak ABC' dan dapatkan score minimal 800 ( dalam 2 ronde berturut-turut) untuk mendapatkan sticker."
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textInst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginHorizontal="15dp"
+        android:fontFamily="@font/gabriela"
+        android:text="Ayo mainkan 'Tebak ABC' dan dapatkan score minimal 800 ( dalam 2 ronde berturut-turut) untuk mendapatkan sticker."
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:layout_marginHorizontal="15dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="0/0 sticker" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stickers"
+        android:visibility="visible" />
+
+</LinearLayout>

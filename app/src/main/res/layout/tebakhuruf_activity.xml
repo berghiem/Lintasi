@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/gold">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tebakbg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rounded_gold_stroke"
+                    android:fontFamily="@font/fredoka_one"
+                    android:paddingHorizontal="23dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="Coba dengarkan, ini huruf apa ya? (pilihlah jawaban yang benar)"
+                    android:textColor="@color/gold"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/play"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/play" />
+
+                    <ImageView
+                        android:id="@+id/sound"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/soundon"
+                        android:text="next" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/choice1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_gold_stroke"
+                    android:src="@drawable/b" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="right_answer.json"
+                    app:lottie_imageAssetsFolder="images" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_weight="0.5">
+
+                <ImageView
+                    android:id="@+id/choice2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounded_gold_stroke"
+                    android:src="@drawable/c" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="right_answer.json"
+                    app:lottie_imageAssetsFolder="images" />
+            </FrameLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:columnCount="6"
+                android:orientation="horizontal"
+                android:rowCount="1">
+
+                <TextView
+                    android:id="@+id/scoreb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:paddingHorizontal="8dp"
+                    android:text="0"
+                    android:textColor="@color/mm"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/bs1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/bs2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/bs3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/bs4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/star"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/bs5"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/star"
+                    android:visibility="gone" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bluetrans"
+            android:visibility="gone">
+
+        </View>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            ads:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="finish.json"
+            app:lottie_imageAssetsFolder="images" />
+
+        <LinearLayout
+            android:id="@+id/papanscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/roundedcream"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:padding="30dp"
+                android:text="Permainan berakhir"
+                android:textColor="@color/gold"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/s1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:visibility="gone"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:id="@+id/s2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:visibility="gone"
+                    android:src="@drawable/star"/>
+
+                <ImageView
+                    android:id="@+id/s3"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:visibility="gone"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:id="@+id/s4"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:visibility="gone"
+                    android:src="@drawable/star" />
+
+                <ImageView
+                    android:id="@+id/s5"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:visibility="gone"
+                    android:src="@drawable/star"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="10dp"
+                    android:text="Score : "
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="10dp"
+                    android:text="100"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/replay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_gold_solid"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingTop="10dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Main lagi"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:padding="30dp"
+            android:background="@drawable/rounded_pink_stroke"
+            android:orientation="vertical"
+            android:id="@+id/stickernotif"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:padding="10dp"
+                android:text="Selamat, kamu mendapat sebuah sticker ! "
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="23sp"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:id="@+id/sticker"
+                android:layout_marginVertical="10dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/terima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_gold_solid"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingTop="10dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Terima"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

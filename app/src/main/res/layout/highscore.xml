@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/highscore_layout"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    android:background="@color/gold"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/sticker_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp"  />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/g_frame" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationEndHS"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:visibility="visible"
+            ads:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="finish.json"
+            app:lottie_imageAssetsFolder="images" />
+
+
+        <ImageView
+            android:id="@+id/reward_image"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="100dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Hebat!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Jawabanmu betul semua !\n
+Kamu mendapat stiker"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="dan pelukan sayang\n
+    dari ibu ."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/reward_desc"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/terimaHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/rounded_white_solid"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center"
+        android:paddingLeft="60dp"
+        android:paddingTop="10dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="10dp"
+        android:text="Terima"
+        android:textAllCaps="true"
+        android:textColor="@color/gold"
+        android:textSize="23sp"
+        android:visibility="visible" />
+
+
+</LinearLayout>
